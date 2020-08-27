@@ -35,10 +35,19 @@ LinearFunction(a: 1, b: 0).stroke(Color.red, lineWidth: 1).aspectRatio(1, conten
 ```swift
 Graph(dataPoints: [12,42,0,36])
     .stroke(Color.blue, lineWidth: 1)
-    .border(Color.gray, width: /*@START_MENU_TOKEN@*/1/*@END_MENU_TOKEN@*/)
+    .border(Color.gray, width: 1)
     .padding()
 ```
 ![Graph](Doc/GraphLight.png)
+
+### Bars
+```swift
+Bars(true, dataPoints: [1,2,6,4,5,3])
+    .stroke(Color.purple, lineWidth: 2.0)
+    .border(Color.gray, width: 1)
+    .padding()
+```
+![Bars](Doc/BarsLight.png)
 
 ## License
 
